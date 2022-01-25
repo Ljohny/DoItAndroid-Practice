@@ -5,7 +5,7 @@
     <!--android:name=".실행할 액티비티명" -->
 
     <application
-        android:allowBackup="true"
+         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"

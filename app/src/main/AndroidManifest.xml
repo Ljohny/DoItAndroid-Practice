@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DoItAndroidPractice">
         <activity
-            android:name=".Mission04Activity"
+            android:name=".StringActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

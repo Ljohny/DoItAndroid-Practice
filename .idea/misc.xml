@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/drawable/back_drawable.xml" value="0.2685" />
+        <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/drawable/border_drawable.xml" value="0.2685" />
+        <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/drawable/finger_drawable.xml" value="0.2685" />
+        <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/drawable/rect_drawable.xml" value="0.2685" />
         <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_framelayout.xml" value="0.28020833333333334" />
         <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_menu.xml" value="0.25" />
@@ -11,6 +15,7 @@
         <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_mission03.xml" value="0.16" />
         <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_mission04.xml" value="0.2" />
         <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_relativelayout.xml" value="0.28020833333333334" />
+        <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_sampledrawable.xml" value="0.25" />
         <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_samplelinearlayout.xml" value="0.28802083333333334" />
         <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_scrollview.xml" value="0.28020833333333334" />
         <entry key="..\:/Source/DoItAndroidPractice/app/src/main/res/layout/activity_string.xml" value="0.28020833333333334" />

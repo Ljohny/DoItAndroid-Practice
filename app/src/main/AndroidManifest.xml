@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.techtown.doitandroid_practice">
 
-    <!--android:name=".실행할 액티비티명" -->
+    <!--android:name=".실행할 액티비티명"
+        방향 전환 속성
+        android:configChanges="orientation|screenSize|keyboardHidden"-->
 
     <application
          android:allowBackup="true"

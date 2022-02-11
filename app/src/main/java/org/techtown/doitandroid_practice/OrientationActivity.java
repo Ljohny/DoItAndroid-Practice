@@ -1,5 +1,6 @@
 package org.techtown.doitandroid_practice;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,7 +19,8 @@ public class OrientationActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_orientation);
-        showToast("onString 호출됨.");
+
+        //showToast("onString 호출됨.");
 
         editText=findViewById(R.id.editTextTextPersonName3);
 
@@ -28,15 +30,16 @@ public class OrientationActivity extends AppCompatActivity
             public void onClick(View v)
             {
                 name = editText.getText().toString();
-                showToast("입력된 값을 변수에 저장했습니다 : " + name);
+               // showToast("입력된 값을 변수에 저장했습니다 : " + name);
             }
         });
 
         if(savedInstanceState !=null)
         {
             name = savedInstanceState.getString("name");
-            showToast("값을 복원했습니다. : " + name);
+            //showToast("값을 복원했습니다. : " + name);
         }
+
     }
 
     @Override
@@ -51,14 +54,24 @@ public class OrientationActivity extends AppCompatActivity
     protected void onStop()
     {
         super.onStop();
-        showToast("onStop 호출됨.");
+        //showToast("onStop 호출됨.");
     }
 
     @Override
     protected void onDestroy()
     {
         super.onDestroy();
-        showToast("onDestroy 호출됨.");
+        //showToast("onDestroy 호출됨.");
+    }
+
+    public void onConfigurationChanged(Configuration newConfig)
+    {
+        super.onConfigurationChanged(newConfig);
+
+        if(newConfig.orientation==Configuration.ORIENTATION_LANDSCAPE)
+            showToast("방향 : ORIENTATION_LANDSCAPE");
+        else if(newConfig.orientation==Configuration.ORIENTATION_PORTRAIT)
+            showToast("방향 : ORIENTATION_PORTRAIT");
     }
 
     private void showToast(String s)
